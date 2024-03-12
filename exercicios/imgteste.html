@@ -5,36 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste</title>
     <style>
-        body{
-            height: 100vh;
-            background-color: black;
-            background-image: url("imagens/wallpaper002.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-size: center center;
-            text-align: center;
-            text-shadow: 1px wheat;
-            font-family: Arial, Helvetica, sans-serif;
+        #container{
+            position: relative;
+            background-image: url(imagens/target001.png);
+            height: 500px;
+            background-color:orange ;
+            background-size: 100% 100%;
+        }
+        #conteudo{
+            background-size: 100% 100%;
+            background-image: url(imagens/target001.png);
+            height: 200px;
+            width: 300px;
+            background-color: royalblue;
+            position: absolute;
 
-            
+            left: 50%;
+            top: 15%;
+
+
         }
-        div.bloco{
-            width: 100px;
-            height: 100px;
-            border: 1px solid black;
-            background-color: red;
-        }
-       div#q1{
-        background-position: center center;
-        
-       }
     </style>
 </head>
 <body>
-    <main>
-        <h1>teste de posiçoes</h1>
-    </main>
+    <section id="container">
+        <article id="conteudo">
 
-    <div class="bloco" id="q1">right</div>
+        </article>
+    </section>
 </body>
 </html>
