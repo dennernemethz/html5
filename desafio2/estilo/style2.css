@@ -37,8 +37,14 @@ a:hover{
 section{   /* configuração para o efeito paralax de imagem */ 
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;~
-    
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.225);
+    width: 400px;
+
 }
 
 section.normal{
