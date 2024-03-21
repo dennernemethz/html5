@@ -1,13 +1,25 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Limelight&family=Passion+One:wght@400;700;900&family=Roboto+Slab:wght@100..900&family=Rubik+Burned&family=Sixtyfour&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Limelight&family=Passion+One:wght@400;700;900&family=Roboto+Slab:wght@100..900&family=Rubik+Burned&family=Sixtyfour&family=Sriracha&display=swap');
+
+:root{
+    --fontt1:  Verdana, Geneva, Tahoma, sans-serif;
+    --fontt2: "Passion One", sans-serif;
+    --fontt3: "Sriracha", cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fontt1);
 }
 
 header{
@@ -19,6 +31,7 @@ header{
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fontt2);
 }
 
 header > p {
@@ -37,8 +50,9 @@ a:hover{
 section{   /* configuração para o efeito paralax de imagem */ 
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 2em; /* serve para deixar o espaço entre as linhas */
     padding-left: 30px;
+    font-family: var(--fontt3);
 }
 
 section.imagem > p {
