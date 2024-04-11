@@ -28,6 +28,13 @@
             background-color: gray;
             color: white;
         }
+        /*tbody > tr:nth-child(odd){
+            background-color: lightpink;
+        } caso queria configurar usando duas pseudo classe (odd impar) (even par) para destacar sua tabela */ 
+        
+       tbody > tr:nth-child(even){ /*lembrando que essa pseudo-classe, vai fazer com que tenha efeito zebrado :nth-child(), dentro do parenteses colocar o valor desejado que no caso é 2n*/
+           background-color: lightgray;
+       }
         td.num{
             text-align: right;
             font-weight: bold;
