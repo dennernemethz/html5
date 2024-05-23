@@ -1,29 +1,28 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px; 
-    font-family: Arial, Helvetica, sans-serif;
-}
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
 html,body{
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
+
 body{
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
-    background-size: cover;
+    background: black url(imagens-para-praticar/16113013296109.webp) no-repeat top center;
+   background-size: cover;
 }
 
 main{
-    height: 100vh;
-    position: relative;
-    
+   height: 100vh;
+   position: relative;
 }
 
-section#telefone{
+section#tel{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,14 +30,14 @@ section#telefone{
     height: 627px;
     width: 311px;
     background-color: blue;
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('imagens-para-praticar/frame-iphone.png') no-repeat;
 }
 
 iframe#tela{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 266px;
+    width: 267px;
     height: 471px;
-     
 }
+
