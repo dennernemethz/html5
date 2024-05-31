@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste de form</h1>
+    <form action="#" method="post" autocomplete="on">
+        <p><label for="iest">estado:</label>
+        <select name="estado" id="iest">
+            <optgroup label="Estado do sul">
+                <option value="Mg">minas Gerais</option>
+                <option value="Sp">são paulo</option>
+            </optgroup>
+            
+        </select>
+    </p>
+        <p>
+            <label for="iprof">profissao</label>
+            <input type="text" name="profissao" id="iprof">
+                 <datalist id="iprof">
+            
+            <option value="adm">administrador</option>
+            <option value="mensagem">mensageiro</option>
+                 </datalist>
+        </p>
+        <p>
+            <label for="imsg">escreva uma mensagem</label><br>
+                  <textarea name="mensageiro" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+
+</body>
+</html>
