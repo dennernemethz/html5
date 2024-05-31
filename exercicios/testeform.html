@@ -6,35 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>teste de form</h1>
-    <form action="#" method="post" autocomplete="on">
-        <p><label for="iest">estado:</label>
-        <select name="estado" id="iest">
-            <optgroup label="Estado do sul">
-                <option value="Mg">minas Gerais</option>
-                <option value="Sp">são paulo</option>
-            </optgroup>
-            
-        </select>
-    </p>
+    <form action="#" method="get" autocomplete="off">
         <p>
-            <label for="iprof">profissao</label>
-            <input type="text" name="profissao" id="iprof">
-                 <datalist id="iprof">
-            
-            <option value="adm">administrador</option>
-            <option value="mensagem">mensageiro</option>
-                 </datalist>
+            <label for="num">nivel:</label>
+            <input type="range" name="numero" id="num" required min="0" max="50" oninput="sai.innerHTML= Number(num.value)">
         </p>
         <p>
-            <label for="imsg">escreva uma mensagem</label><br>
-                  <textarea name="mensageiro" id="imsg" cols="30" rows="10"></textarea>
+            <label for="sai">saida:</label>
+            <output id="sai">0</output>
         </p>
         <p>
             <input type="submit" value="enviar">
-            <input type="reset" value="limpar">
+           <input type="reset" value="Limpar">
         </p>
     </form>
-
 </body>
 </html>
