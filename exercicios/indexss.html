@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <label for="vol1">volume</label>
+        <input type="range" name="volume" id="vol1" min="0" max="5" required oninput="saida.innerHTML = Number(vol1.value)">
+        <output id="saida">1</output>
+
+        <br><label for="som1">Brilho</label>
+        <input type="range" name="Brilho" id=" som1" min="0" max="10" required oninput="som2.innerHTML = Number(som2.value)" >
+        <output id="som2"></output>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
